@@ -4,3 +4,4 @@
 2. Chapter 02: Object-Oriented Programming
 3. Chapter 03: Algorithm Analysis
 4. Chapter 04: Recursion
+5. Chapter 05: Array-Based Sequences
