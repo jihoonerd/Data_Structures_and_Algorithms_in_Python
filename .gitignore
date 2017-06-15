@@ -1,2 +1,3 @@
 *.pdf
 **/*.ipynb_checkpoints/
+**/*.idea/
