@@ -43,7 +43,7 @@ class _DoublyLinkedBase(object):
         return newest
 
     def _delete_node(self, node):
-        """Delete nonsentinel node from teh list and return its element."""
+        """Delete non sentinel node from teh list and return its element."""
         predecessor = node._prev
         successor = node._next
         predecessor._next = successor
