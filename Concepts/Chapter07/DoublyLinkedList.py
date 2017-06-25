@@ -1,6 +1,11 @@
 # -*- coding: utf-8 -*-
 
 
+class Empty(Exception):
+    """Error attempting to access an element from an empty container."""
+    pass
+
+
 class _DoublyLinkedBase(object):
     """A base class providing a doubly linked list representation"""
 
@@ -26,7 +31,7 @@ class _DoublyLinkedBase(object):
         return self._size
 
     def is_empty(self):
-        """REturn True if list is empty."""
+        """Return True if list is empty."""
         return self._size == 0
 
     def _insert_between(self, e, predecessor, successor):
