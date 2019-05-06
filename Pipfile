@@ -10,6 +10,3 @@ seaborn = "*"
 matplotlib = "*"
 jupyter = "*"
 scipy = "*"
-
-[requires]
-python_version = "3.6"
