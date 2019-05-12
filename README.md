@@ -3,7 +3,7 @@
 ## Contents
 |Chpater|Notebook|
 |---|---|
-|Chapter 02|[Notebook](https://nbviewer.jupyter.org/github/jihoonerd/Data_Structures_and_Algorithms_in_Python/blob/master/Concepts/Chapter_02.ipynb)|
+|Chapter 02|[Notebook](https://nbviewer.jupyter.org/github/jihoonerd/Data_Structures_and_Algorithms_in_Python/blob/master/Contents/Chapter_02.ipynb)|
 
 ## Exercise
 |Chpater|Notebook|
