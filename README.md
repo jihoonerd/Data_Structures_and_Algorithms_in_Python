@@ -7,6 +7,7 @@
 |Chapter 03|[Notebook](https://nbviewer.jupyter.org/github/jihoonerd/Data_Structures_and_Algorithms_in_Python/blob/master/Contents/Chapter_03.ipynb)|
 |Chapter 04|[Notebook](https://nbviewer.jupyter.org/github/jihoonerd/Data_Structures_and_Algorithms_in_Python/blob/master/Contents/Chapter_04.ipynb)|
 |Chapter 05|[Notebook](https://nbviewer.jupyter.org/github/jihoonerd/Data_Structures_and_Algorithms_in_Python/blob/master/Contents/Chapter_05.ipynb)|
+|Chapter 06|[Notebook](https://nbviewer.jupyter.org/github/jihoonerd/Data_Structures_and_Algorithms_in_Python/blob/master/Contents/Chapter_06.ipynb)|
 
 ## Exercise
 |Chapter|Notebook|
