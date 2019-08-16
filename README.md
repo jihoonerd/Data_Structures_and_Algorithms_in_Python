@@ -1,5 +1,7 @@
 # Data Structures and Algorithms in Python
 
+![Data Structures and Algorithms in Python](https://media.wiley.com/product_data/coverImage300/75/11182902/1118290275.jpg)
+
 ## Contents
 |Chapter|Notebook|
 |---|---|
