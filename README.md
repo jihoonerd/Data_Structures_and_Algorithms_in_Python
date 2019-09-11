@@ -23,3 +23,4 @@ Brief, very brief summary of ***the Data Structures and Algorithms in Python*** 
 |Chapter 04|[Notebook](https://nbviewer.jupyter.org/github/jihoonerd/Data_Structures_and_Algorithms_in_Python/blob/master/Exercises/Chapter_04.ipynb)|
 |Chapter 05|[Notebook](https://nbviewer.jupyter.org/github/jihoonerd/Data_Structures_and_Algorithms_in_Python/blob/master/Exercises/Chapter_05.ipynb)|
 |Chapter 06|[Notebook](https://nbviewer.jupyter.org/github/jihoonerd/Data_Structures_and_Algorithms_in_Python/blob/master/Exercises/Chapter_06.ipynb)|
+|Chapter 07|[Notebook](https://nbviewer.jupyter.org/github/jihoonerd/Data_Structures_and_Algorithms_in_Python/blob/master/Exercises/Chapter_07.ipynb)|
