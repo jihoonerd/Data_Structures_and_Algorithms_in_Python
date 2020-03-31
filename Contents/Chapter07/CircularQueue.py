@@ -3,6 +3,7 @@
 
 class Empty(Exception):
     """Error attempting to access an element from an empty container."""
+
     pass
 
 
@@ -12,16 +13,17 @@ class CircularQueue(object):
     # -------------------- nested _Node class --------------------
     class _Node:
         """Lightweight, nonpublic class for storing a singly linked node."""
-        __slots__ = '_element', '_next'         # streamline memory usage
 
-        def __init__(self, element, next):      # initialize node's fields
-            self._element = element             # reference to user's element
-            self._next = next                   # reference to next node
+        __slots__ = "_element", "_next"  # streamline memory usage
+
+        def __init__(self, element, next):  # initialize node's fields
+            self._element = element  # reference to user's element
+            self._next = next  # reference to next node
 
     def __init__(self):
         """Create an empty queue"""
-        self._tail = None                       # will represent tail of queue
-        self._size = 0                          # number of queue elements.
+        self._tail = None  # will represent tail of queue
+        self._size = 0  # number of queue elements.
 
     def __len__(self):
         """Return the number of elements in the queue."""
@@ -37,7 +39,7 @@ class CircularQueue(object):
         Raise Empty exception if the queue is empty.
         """
         if self.is_empty():
-            raise Empty('Queue is empty')
+            raise Empty("Queue is empty")
         head = self._tail._next
         return head._element
 
@@ -47,27 +49,27 @@ class CircularQueue(object):
         Raise Empty exception if the queue is empty.
         """
         if self.is_empty():
-            raise Empty('Queue is empty')
+            raise Empty("Queue is empty")
         oldhead = self._tail._next
-        if self._size == 1:                     # removing only element
-            self._tail = None                   # queue becomes empty
+        if self._size == 1:  # removing only element
+            self._tail = None  # queue becomes empty
         else:
-            self._tail._next = oldhead._next    # bypass the old head
+            self._tail._next = oldhead._next  # bypass the old head
         self._size -= 1
         return oldhead._element
 
     def enqueue(self, e):
         """Add an element to the back of the queue."""
-        newest = self._Node(e, None)            # node will be new tail node
+        newest = self._Node(e, None)  # node will be new tail node
         if self.is_empty():
-            newest._next = newest               # initialize circularly
+            newest._next = newest  # initialize circularly
         else:
-            newest._next = self._tail._next     # new node points to head
-            self._tail._next = newest           # old tail points to new node
-        self._tail = newest                     # new node becomes the tail.
+            newest._next = self._tail._next  # new node points to head
+            self._tail._next = newest  # old tail points to new node
+        self._tail = newest  # new node becomes the tail.
         self._size += 1
 
     def rotate(self):
         """Rotate fron element to the back of the queue."""
         if self._size > 0:
-            self._tail = self._tail._next       # old head becomes new tail.
+            self._tail = self._tail._next  # old head becomes new tail.

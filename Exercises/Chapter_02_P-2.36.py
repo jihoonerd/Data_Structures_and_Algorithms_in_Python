@@ -7,6 +7,7 @@ Created on Wed May 24 10:34:00 2017
 @contact: jioon_kim@outlook.com
 """
 import numpy as np
+
 """
 P-2.36
 Write a Python program to simulate an ecosystem containing two types of creatures, bears and fish. The ecosystem consists of a river, which is modeled as a relatively large list. Each element of the list should be a Bear object, a Fish object, or None. In each time step, bsed on a random process, each animal either attempts to move into an adjacent list location or stay where it is. If two animals of the same type are about to collide in the same cell, then they stay where they are, but they create a new instance of that type of animal, which is placed in a random empty (i.e., previously None) location in the list. If a bear and a fish collide, however, then the fish died (i.e., it disappears).
@@ -14,18 +15,17 @@ Write a Python program to simulate an ecosystem containing two types of creature
 
 
 class River(object):
-
     def __init__(self, n_room=10, n_animal=8):
         self._n_room = n_room
         self._eco = []
         self._n_bear = np.random.randint(0, n_animal)
         self._n_fish = n_animal - self._n_bear
         for i in range(self._n_bear):
-            self._eco.append("B")    # Bear
+            self._eco.append("B")  # Bear
         for i in range(self._n_fish):
-            self._eco.append("F")    # Fish
+            self._eco.append("F")  # Fish
         for i in range(n_room - n_animal):
-            self._eco.append("N")    # None
+            self._eco.append("N")  # None
         np.random.shuffle(self._eco)
 
     def get_eco(self):

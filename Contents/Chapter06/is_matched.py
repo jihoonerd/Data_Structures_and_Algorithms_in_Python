@@ -6,13 +6,14 @@ Created on Thu Jun 15 11:21:46 2017
 """
 
 import ArrayStack
+
 #  An Algorithm for Matching Delimiters
 
 
 def is_matched(expr):
     """Return True if all delimiters are properly match; False otherwise."""
-    lefty = '({['
-    righty = ')}]'
+    lefty = "({["
+    righty = ")}]"
     S = ArrayStack()
 
     for c in expr:
@@ -29,19 +30,19 @@ def is_matched(expr):
 def is_matched_html(raw):
     """Return True if all HTML tags are properly match; False otherwise."""
     S = ArrayStack()
-    j = raw.find('<')
+    j = raw.find("<")
 
     while j != -1:
-        k = raw.find('>', j+1)
+        k = raw.find(">", j + 1)
         if k == -1:
             return False
-        tag = raw[j+1:k]
-        if not tag.startswith('/'):
+        tag = raw[j + 1 : k]
+        if not tag.startswith("/"):
             S.push(tag)
         else:
             if S.is_empty():
                 return False
             if tag[1:] != S.pop():
                 return False
-        j = raw.find('<', k+1)
+        j = raw.find("<", k + 1)
     return S.is_empty()
