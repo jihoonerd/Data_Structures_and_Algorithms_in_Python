@@ -3,6 +3,7 @@
 
 class Empty(Exception):
     """Error attempting to access an element from an empty container."""
+
     pass
 
 
@@ -11,7 +12,8 @@ class _DoublyLinkedBase(object):
 
     class _Node(object):
         """Lightweight, nonpublic class for storing a doubly linked node."""
-        __slots__ = '_element', '_prev', '_next'  # streamline memory
+
+        __slots__ = "_element", "_prev", "_next"  # streamline memory
 
         def __init__(self, element, prev, next):  # initialize node's fields
             self._element = element

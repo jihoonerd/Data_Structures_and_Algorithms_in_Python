@@ -3,6 +3,7 @@
 
 class Empty(Exception):
     """Error attempting to access an element from an empty container."""
+
     pass
 
 
@@ -12,11 +13,12 @@ class LinkedStack(object):
     # -------------------- nested _Node class --------------------
     class _Node:
         """Lightweight, nonpublic class for storing a singly linked node."""
-        __slots__ = '_element', '_next'         # streamline memory usage
 
-        def __init__(self, element, next):      # initialize node's fields
-            self._element = element             # reference to user's element
-            self._next = next                   # reference to next node
+        __slots__ = "_element", "_next"  # streamline memory usage
+
+        def __init__(self, element, next):  # initialize node's fields
+            self._element = element  # reference to user's element
+            self._next = next  # reference to next node
 
     # -------------------- stack methods --------------------
     def __init__(self):
@@ -42,8 +44,8 @@ class LinkedStack(object):
 
         Raise Empty exception if the stack is empty."""
         if self.is_empty():
-            raise Empty('Stack is empty')
-        return self._head._element              # top of stack is at head of list
+            raise Empty("Stack is empty")
+        return self._head._element  # top of stack is at head of list
 
     def pop(self):
         """Remove and return the element from the top of the stack (i.e., LIFO).
@@ -51,8 +53,8 @@ class LinkedStack(object):
         Raise Empty exception if the stack is empty.
         """
         if self.is_empty():
-            raise Empty('Stack is empty')
+            raise Empty("Stack is empty")
         answer = self._head._element
-        self._head = self._head._next       # bypass the former top node
+        self._head = self._head._next  # bypass the former top node
         self._size -= 1
         return answer

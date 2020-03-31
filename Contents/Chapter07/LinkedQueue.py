@@ -3,6 +3,7 @@
 
 class Empty(Exception):
     """Error attempting to access an element from an empty container."""
+
     pass
 
 
@@ -12,11 +13,12 @@ class LinkedQueue:
     # -------------------- nested _Node class --------------------
     class _Node:
         """Lightweight, nonpublic class for storing a singly linked node."""
-        __slots__ = '_element', '_next'         # streamline memory usage
 
-        def __init__(self, element, next):      # initialize node's fields
-            self._element = element             # reference to user's element
-            self._next = next                   # reference to next node
+        __slots__ = "_element", "_next"  # streamline memory usage
+
+        def __init__(self, element, next):  # initialize node's fields
+            self._element = element  # reference to user's element
+            self._next = next  # reference to next node
 
     def __init__(self):
         """Create an empty queue."""
@@ -35,7 +37,7 @@ class LinkedQueue:
     def first(self):
         """Return (but do not remove) the element at the front of the queue."""
         if self.is_empty():
-            raise Empty('Queue is empty')
+            raise Empty("Queue is empty")
         return self._head._element
 
     def dequeue(self):
@@ -44,7 +46,7 @@ class LinkedQueue:
         Raise Empty exception if the queue is empty.
         """
         if self.is_empty():
-            raise Empty('Queue is empty')
+            raise Empty("Queue is empty")
         answer = self._head._element
         self._head = self._head._next
         self._size -= 1
