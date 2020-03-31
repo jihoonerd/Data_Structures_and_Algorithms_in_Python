@@ -7,12 +7,14 @@ Project: Data Structures and Algorithms
 
 class Empty(Exception):
     """Error attempting to access an element from an empty container."""
+
     pass
 
 
 class ArrayQueue:
     """FIFO queue implementation using a Python list as underlying storage"""
-    DEFAULT_CAPACITY = 10   # moderate capacity for all new queues
+
+    DEFAULT_CAPACITY = 10  # moderate capacity for all new queues
 
     def __init__(self):
         """Create an empty queue."""
@@ -35,7 +37,7 @@ class ArrayQueue:
         """
 
         if self.is_empty():
-            raise Empty('Queue is empty')
+            raise Empty("Queue is empty")
         return self._data[self._front]
 
     def dequeue(self):
@@ -44,7 +46,7 @@ class ArrayQueue:
         Raise Empty exception if the queue is empty.
         """
         if self.is_empty():
-            raise Empty('Queue is empty')
+            raise Empty("Queue is empty")
         answer = self._data[self._front]
         self._data[self._front] = None  # help garbage collection
         self._front = (self._front + 1) % len(self._data)
@@ -54,7 +56,7 @@ class ArrayQueue:
     def enqueue(self, e):
         """Add an element to the back of queue"""
         if self._size == len(self._data):
-            self._resize(2 * len(self._data)) # double the array size
+            self._resize(2 * len(self._data))  # double the array size
         avail = (self._front + self._size) % len(self._data)
         self._data[avail] = e
         self._size += 1
