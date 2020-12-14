@@ -4,7 +4,18 @@ Brief, very brief summary of ***the Data Structures and Algorithms in Python*** 
 
 ![Data Structures and Algorithms in Python](https://media.wiley.com/product_data/coverImage300/75/11182902/1118290275.jpg)
 
+## Environment / Installation
+
+* Python 3.8
+
+Intall dependencies for this repo.
+
+```bash
+$ pip install -r requirements.txt
+```
+
 ## Contents
+
 |Chapter|Contents|Exercise|
 |---|---|---|
 |Chapter 01| N/A |[Notebook](https://nbviewer.jupyter.org/github/jihoonerd/Data_Structures_and_Algorithms_in_Python/blob/master/Exercises/Chapter_01.ipynb)|
