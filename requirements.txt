@@ -175,7 +175,7 @@ traitlets==4.3.3
 turtlebot3-example==1.2.4
 turtlebot3-teleop==1.2.4
 typed-ast==1.4.1
-urllib3==1.25.9
+urllib3==1.26.5
 wcwidth==0.1.9
 webencodings==0.5.1
 widgetsnbextension==3.5.1
