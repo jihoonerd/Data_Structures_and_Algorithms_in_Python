@@ -1,6 +1,12 @@
+<div align="center">
+
 # Data Structures and Algorithms in Python
 
-Brief, very brief summary of ***the Data Structures and Algorithms in Python*** book and worked solutions of exercises.
+![logo](assets/logo.png)
+
+</div>
+
+Brief, very brief summary of ***the Data Structures and Algorithms in Python*** book and worked solutions.
 
 ![Data Structures and Algorithms in Python](https://media.wiley.com/product_data/coverImage300/75/11182902/1118290275.jpg)
 
