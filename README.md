@@ -1,7 +1,5 @@
 <div align="center">
 
-# Data Structures and Algorithms in Python
-
 ![logo](assets/logo.png)
 
 </div>
