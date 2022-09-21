@@ -22,7 +22,7 @@ $ pip install -r requirements.txt
 
 |Chapter|Contents|Exercise|
 |---|---|---|
-|Chapter 01| N/A |[Notebook](https://github.com/jihoonerd/Data_Structures_and_Algorithms_in_Python/blob/32-deprecated-link/Exercises/Chapter_01.ipynb)|
+|Chapter 01| N/A |[Notebook](https://github.com/jihoonerd/Data_Structures_and_Algorithms_in_Python/blob/main/Exercises/Chapter_01.ipynb)|
 |Chapter 02|[Notebook](https://github.com/jihoonerd/Data_Structures_and_Algorithms_in_Python/blob/main/Contents/Chapter_02.ipynb)|[Notebook](https://github.com/jihoonerd/Data_Structures_and_Algorithms_in_Python/blob/main/Exercises/Chapter_02.ipynb)|
 |Chapter 03|[Notebook](https://github.com/jihoonerd/Data_Structures_and_Algorithms_in_Python/blob/main/Contents/Chapter_03.ipynb)|[Notebook](https://github.com/jihoonerd/Data_Structures_and_Algorithms_in_Python/blob/main/Exercises/Chapter_03.ipynb)|
 |Chapter 04|[Notebook](https://github.com/jihoonerd/Data_Structures_and_Algorithms_in_Python/blob/main/Contents/Chapter_04.ipynb)|[Notebook](https://github.com/jihoonerd/Data_Structures_and_Algorithms_in_Python/blob/main/Exercises/Chapter_04.ipynb)|
