@@ -70,7 +70,7 @@ pyzmq==23.2.1
 qtconsole==5.3.1
 QtPy==2.2.0
 requests==2.31.0
-scipy==1.9.0
+scipy==1.10.0
 seaborn==0.11.2
 Send2Trash==1.8.0
 six==1.14.0
