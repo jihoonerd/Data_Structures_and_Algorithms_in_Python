@@ -82,7 +82,7 @@ tinycss2==1.1.1
 tornado==6.3.3
 traitlets==5.3.0
 ufw==0.36
-urllib3==1.26.5
+urllib3==1.26.17
 wcwidth==0.2.5
 webencodings==0.5.1
 widgetsnbextension==4.0.2
