@@ -17,7 +17,7 @@ distro==1.4.0
 entrypoints==0.4
 executing==0.10.0
 fastjsonschema==2.16.1
-fonttools==4.43.0
+fonttools==4.61.0
 idna==3.7
 importlib-metadata==4.12.0
 importlib-resources==5.9.0
