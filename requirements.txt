@@ -35,7 +35,7 @@ jupyter-core==4.11.2
 jupyterlab-pygments==0.2.2
 jupyterlab-widgets==3.0.2
 kiwisolver==1.4.4
-lxml==4.9.1
+lxml==6.1.0
 MarkupSafe==2.1.1
 matplotlib==3.5.3
 matplotlib-inline==0.1.6
