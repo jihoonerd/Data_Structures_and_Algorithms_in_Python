@@ -74,7 +74,7 @@ scipy==1.10.0
 seaborn==0.11.2
 Send2Trash==1.8.0
 six==1.14.0
-soupsieve==2.3.2.post1
+soupsieve==2.8.4
 ssh-import-id==5.10
 stack-data==0.4.0
 terminado==0.15.0
