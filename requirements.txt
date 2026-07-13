@@ -4,7 +4,7 @@ asttokens==2.0.8
 attrs==22.1.0
 backcall==0.2.0
 beautifulsoup4==4.11.1
-bleach==5.0.1
+bleach==6.4.0
 certifi==2024.7.4
 cffi==1.15.1
 chardet==3.0.4
